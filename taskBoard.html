@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="taskBoard.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+        
+        <title>Task Board</title>
+        <meta charset="utf-8">
+        <meta name="keywords" lang="en" content="tasks">
+        <meta name="description" lang="en" content="board for task">
+    </head>
+    <body>
+        <aside>
+            <div class="menu">
+                <img src="proManage.svg" alt="logo">
+                <div class="sider">
+                    <div class="button-container">
+                        <button>
+                            <img src="dashboardLogo.svg">Dashboard
+                        </button>
+                        <button>
+                            <img src="boardMenuLogo.svg">Board
+                        </button>
+                        <button>
+                            <img src="analyticsLogo.svg">Analytics
+                        </button>
+                        <button>
+                            <img src="settingsLogo.svg">Settings
+                        </button>
+                    </div>
+                    <button class="log-out">
+                        <img src="logOut.svg">Log out
+                    </button>
+                </div>
+            </div>
+        </aside>
+        <main class="main-board">
+            <div class="top-row">
+                <div class="search">
+                    <img src="searching.svg">
+                    <input class="search-input" placeholder="Search">
+                </div>
+                <div class="profile-information">
+                    <img src="ringInformation.svg">
+                    <img src="question.svg">
+                    <div class="photo-profile"></div>
+                </div>
+            </div>
+            <div class="header-wrapper">
+                <h2>Board</h2>
+                <div class="choose-time">
+                    This week<img src="arrow.svg">
+                </div>
+            </div>
+            <div class="columns-wrapper">
+                <div class="column">
+                    <div class="column-head">
+                        <h5>To do</h5>
+                        <div class="symbol-head-column">
+                            <button class="icon-button">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1V15" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 8H15" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-type">
+                                    <div class="type-color green"></div>
+                                    DESIGN SYSTEM
+                                </div>
+                                <button class="icon-button">
+                                    <img src="threePoints.svg" alt="...">
+                                </button>
+                            </div>
+                            <h3>Hero section</h3>
+                            <p>Create a design system for a hero section
+                                in 2 different variants. Create a simple
+                                presentation with these components.</p>
+                            <img src="assets/asignee1.svg">
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-type">
+                                    <div class="type-color blue"></div>
+                                    TYPOGRAPHY
+                                </div>
+                                <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            </div>
+                            <h3>Typography change</h3>
+                            <p>Modify typography and styling of text
+                                placed on 6 screens of the website design. 
+                                Prepare a documentation.</p>
+                            <img src="assets/asignee1.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-head">
+                        <h5>In progress</h5>
+                        <div class="symbol-head-column">
+                            <button class="icon-button">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1V15" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 8H15" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-type">
+                                    <div class="type-color pink"></div>
+                                    DEVELOPMENT
+                                </div>
+                                <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            </div>
+                            <h3>Implement design screens</h3>
+                            <p>Our designers created 6 screens for a website that needs to be implemented by our dev team.</p>
+                            <img src="assets/asignee1.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-head">
+                        <h5>Done</h5>
+                        <div class="symbol-head-column">
+                            <button class="icon-button">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1V15" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1 8H15" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-type">
+                                    <div class="type-color pink"></div>
+                                    DEVELOPMENT
+                                </div>
+                                <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            </div>
+                            <h3>Fix bugs in the CSS code</h3>
+                            <p>Fix small bugs that are essential to prepare for the next release that will happen this quarter.</p>
+                            <img src="assets/asignee1.svg">
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-type">
+                                    <div class="type-color blue"></div>
+                                    TYPOGRAPHY
+                                </div>
+                                <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            </div>
+                            <h3>Proofread final text</h3>
+                            <p>The text provided by marketing department needs to be proofread so that we make sure that it fits into our design.</p>
+                            <img src="assets/asignee1.svg">
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-type">
+                                    <div class="type-color green"></div>
+                                    DESIGN SYSTEM
+                                </div>
+                                <button class="icon-button">
+                                <svg width="18" height="4" viewBox="0 0 18 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 3C9.55228 3 10 2.55228 10 2C10 1.44772 9.55228 1 9 1C8.44772 1 8 1.44772 8 2C8 2.55228 8.44772 3 9 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 3C16.5523 3 17 2.55228 17 2C17 1.44772 16.5523 1 16 1C15.4477 1 15 1.44772 15 2C15 2.55228 15.4477 3 16 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 3C2.55228 3 3 2.55228 3 2C3 1.44772 2.55228 1 2 1C1.44772 1 1 1.44772 1 2C1 2.55228 1.44772 3 2 3Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            </div>
+                            <h3>Responsive design</h3>
+                            <p>Our designers created 6 screens for a website that needs to be implemented by our dev team.</p>
+                            <img src="assets/asignee1.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
